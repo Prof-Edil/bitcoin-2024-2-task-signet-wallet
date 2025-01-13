@@ -1,12 +1,12 @@
 # Signet Wallet Project
 
-The goal of this project is to write a simple wallet over two weeks and use it
+The goal of this project is to write a simple wallet and use it
 to interact with a custom signet network provided by the administrator.
 
 ## Simplify
 
 To reduce the scope of this project the wallet will be very limited:
-- No separate change addresses: one descriptor is used for all internal and external addressees.
+- No separate change addresses: one descriptor is used for all internal and external addresses.
 - No [VarInt](https://en.bitcoin.it/wiki/Protocol_documentation#Variable_length_integer):
 all vectors will be under 255 bytes in length and always require one single
 byte to indicate length.

@@ -1,4 +1,4 @@
-# Week 2: Send A Multisig Transaction
+# Task 2: Send A Multisig Transaction
 
 Challenge: extend your wallet program to spend your own coins. You will create
 two transactions: one that spends from a single-key `p2wpkh` and funds a `p2wsh`
@@ -35,9 +35,9 @@ and again, use of the Bitcoin Core wallet is not allowed by your submitted code.
 
 ## Show off
 
-While not mandatory, you are encouraged to broadcast your transactions to the
-signet network! You can use `bitcoin-cli -signet sendrawtransaction <hex>` for
-this. It will be very cool to see everyone's name in our private signet blockchain!
+You are encouraged to broadcast your transactions to the signet network! You can
+use `bitcoin-cli -signet sendrawtransaction <hex>` for this. It will be very
+cool to see everyone's name in our private signet blockchain! Include the txid of your two transactions when asking for review.
 
 ## Submission
 

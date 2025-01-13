@@ -1,4 +1,4 @@
-# Week 1: Recover Wallet State
+# Task 1: Recover Wallet State
 
 Challenge: given a descriptor and a blockchain, compute your confirmed wallet
 balance. Submit a program with your `tprv` hard-coded, execute the necessary
